@@ -343,3 +343,121 @@
   border-radius: 10px;
 }
 
+.personalized_card {
+  background: #fffeff;
+  width: 472.13px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #ecf4f6;
+  padding-left: 15px;
+  padding-top: 13px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.personalized_card h3 {
+  color: #3d2650;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.line_card {
+  border: 1px solid #ecf4f6;
+  width: 490px;
+  margin-top: 12px;
+  margin-left: -15px;
+}
+
+.line_bottom_p {
+  color: #221437;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.line_bottom {
+  margin: 0 auto;
+  background-color: #f6fafd;
+  width: 413.48px;
+  height: 6.59px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.line_bottom_green {
+  width: 47%;
+  height: 100%;
+  background-color: #b4cf80;
+  border-radius: 10px;
+}
+
+.personalized_card_info {
+  padding-left: 15px;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+
+.card_info_1 p {
+  color: #221437;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25.6px;
+  margin-bottom: 15px;
+}
+
+.line_circle{
+  display: flex;
+}
+
+.line_line {
+  width: 79.91px;
+  height: 5.13px;
+  background-color: #e8f1f4;
+  border-radius: 10px;
+}
+
+.custom-radio {
+  padding-bottom: 7px;
+}
+
+.custom-radio label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.custom-radio input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #66cc66;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-radio input[type="radio"]:checked {
+  background-color: #66cc66;
+  border-color: #66cc66;
+}
+
+.custom-radio input[type="radio"]:checked::before {
+  content: "\2713"; /* Bu yerda ptichka belgisi qo'llanadi */
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  top: -2px;
+  left: 3px;
+}
