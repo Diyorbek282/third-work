@@ -569,6 +569,7 @@
 .customers_section {
   position: relative;
   z-index: 2;
+  margin-bottom: 850px;
 }
 
 .customers_section h1 {
@@ -649,7 +650,7 @@
 
 .customer_box h3 {
   color: #ffffff;
-  padding: 18px 105px;
+  padding: 18px 0;
   text-align: center;
   background-color: #793cfb;
   border-top-left-radius: 20px;
@@ -713,3 +714,337 @@
   width: 258px;
   margin-top: 56px;
 }
+
+.move1 {
+  position: absolute;
+  left: 570px;
+  top: 200px;
+}
+
+.move2 {
+  position: absolute;
+  left: 1000px;
+  top: 350px;
+}
+
+/* CURTOMER SECTION 2 */
+
+.customers_section2 h1 {
+  width: 870px;
+  font-family: Poppins;
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 81px;
+  text-align: center;
+  margin: 0 auto;
+  color: #221437;
+  span {
+    font-family: Poppins;
+    font-size: 81px;
+    font-weight: 700;
+    line-height: 81px;
+    text-align: center;
+  }
+}
+
+.customers_section2 p {
+  width: 732px;
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 38.25px;
+  text-align: center;
+  color: #221437;
+  margin: 57px auto;
+}
+
+.customers_section2 .back_image_2 {
+  background-image: url(./images/salto.png);
+  width: 672px;
+  height: 363px;
+  padding: 34.99px 40.57px 16.73px 148.58px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-right: 150px;
+}
+
+/* UNLOCK BOXS SECTION */
+.unlock_sectoin {
+  margin-top: 115px;
+  margin-bottom: 200px;
+}
+
+.unlock_image {
+  background-image: url(./images/IMAGE.png);
+  width: 1440px;
+  height: 1414px;
+  background-repeat: no-repeat;
+}
+
+.unlock_image_2 {
+  background-image: url(./images/apacha.png);
+  width: 196.04px;
+  height: 147.5px;
+  background-repeat: no-repeat;
+  margin-bottom: -35px;
+}
+
+.unlock_df {
+  display: flex;
+  margin-top: -1170px;
+  justify-content: center;
+  gap: 200px;
+}
+
+.unlock_card_div {
+  height: 370px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.unlock_info {
+  width: 447px;
+  height: 601px;
+}
+
+.unlock_card_div .uncd_c {
+  width: 460px;
+  color: #ffffff;
+  background-color: #abc264;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 65px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: Poppins;
+}
+
+.unlock_card_div_info {
+  background-color: white;
+  width: 387px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+
+.unlock_card_div_info h4 {
+  width: 365.44px;
+  background-color: #fff9e6;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 21px;
+  padding-bottom: 17px;
+  padding-left: 21px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.art_lines {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 80px;
+}
+
+.art_line_circle {
+  border: 1px solid #fed758;
+  background-color: #fed758;
+  border-radius: 50%;
+  width: 15.02px;
+  height: 14.47px;
+}
+
+.art_line_line {
+  width: 64.58px;
+  height: 2.15px;
+  background-color: #fed758;
+  border: 1px solid #fed758;
+}
+
+.art_line_circle_in_circle {
+  border: 1px solid #fed758;
+  background-color: #fed758;
+  border-radius: 50%;
+  width: 27.47px;
+  height: 26.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in_circle {
+  border: 1px solid #fed758;
+  background-color: white;
+  border-radius: 50%;
+  width: 8.17px;
+  height: 7.87px;
+}
+
+.none_color {
+  background-color: #cedbe3;
+  border: 1px solid #cedbe3;
+}
+
+.c_none_color {
+  background-color: #cedbe3;
+  border: 1px solid #cedbe3;
+}
+
+.unlock_lines_informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 15px;
+}
+
+.unlock_lines_info p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+
+.unlock_line_line_2 {
+  width: 50.78px;
+  height: 7.15px;
+  background-color: #e1edf1;
+  border-radius: 20px;
+}
+
+.ull2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ui_2_unlock span {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.64px;
+  color: #793cfb;
+  margin-bottom: 30px;
+}
+
+.ui_2_unlock h2 {
+  font-family: Poppins;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 36.43px;
+  letter-spacing: 0.7200000286102295px;
+  color: #221437;
+  margin-bottom: 30px;
+  span {
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 36.43px;
+    letter-spacing: 0.7200000286102295px;
+    color: #221437;
+  }
+}
+
+.ui_2_unlock p {
+  width: 297px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #221437;
+  margin-bottom: 20px;
+}
+
+/* UNLOCK SECTION 2 */
+.unlock_sectoin_2 {
+  margin-left: 45 0px;
+  display: flex;
+  margin-top: 100px;
+}
+
+.unlock_section_2_info span {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.64px;
+  color: #793cfb;
+}
+
+.unlock_section_2_info h1 {
+  margin-top: 23px;
+  margin-bottom: 31px;
+  width: 343px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.43px;
+  letter-spacing: 0.7200000286102295px;
+  color: #221437;
+  span {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36.43px;
+    letter-spacing: 0.7200000286102295px;
+    color: #221437;
+  }
+}
+
+.unlock_section_2_info p {
+  width: 303px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #221437;
+  margin-bottom: 17px;
+}
+
+.unlock_section_2_image {
+  margin-top: 170px;
+}
+
+/* STATISTIC SECTION */
+.statistic_boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 200px;
+}
+
+.statistic_box_info {
+  width: 344px;
+}
+
+.statistic_box_info h3 {
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 36.43px;
+  color: #221437;
+  margin-bottom: 40px;
+}
+
+.statistic_box_info p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.16px;
+  color: #221437;
+  span {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: #9fb55d;
+  }
+}
+
+
