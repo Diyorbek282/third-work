@@ -1524,14 +1524,288 @@
 .present_cards {
   width: 989.36px;
   height: 653.99px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+.present_card_p p {
+  color: white;
+  background-color: #fed758;
+  padding-top: 58px;
+  padding-bottom: 112px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.43px;
+  letter-spacing: 0.7200000286102295px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.present_card {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  height: 438px;
+  width: 844px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: -70px;
 }
 
 .present_card h4 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: white;
   color: #221437;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 400;
   line-height: 25.2px;
+  text-align: left;
+  background-color: #fff9e6;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  padding-left: 34px;
+}
+
+/* TABLE UCHUN */
+
+.card_tables {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 719.83px;
+  height: 269.76px;
+}
+
+.row {
+  display: flex;
+  background-color: #fff9e6;
+  margin: 1px;
+}
+
+.header-row {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #717678;
+}
+
+.cell {
+  flex: 1;
+  padding: 15px;
+}
+
+.priority {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.green {
+  background-color: #a8d08d;
+  width: 30.94px;
+  height: 8.96px;
+}
+
+.yellow {
+  background-color: #f4c542;
+  width: 30.94px;
+  height: 8.96px;
+}
+
+.pink {
+  background-color: #f4a7d8;
+  width: 30.94px;
+  height: 8.96px;
+}
+
+.last-row {
+  border-bottom: none;
+}
+
+.row-1 {
+  background-color: #fff9e6;
+  border-radius: 10px;
+}
+
+.row-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.last-row {
+  border-radius: 10px;
+}
+
+.cell_line {
+  width: 30.94px;
+  height: 8.96px;
+  background-color: #d7d1c0;
+  border-radius: 10px;
+}
+
+.cell_line_in_line {
+  width: 43.97px;
+  height: 8.96px;
+  background-color: #d7d1c0;
+  border-radius: 10px;
+}
+
+.card_table {
+  display: flex;
+  gap: 5px;
+}
+
+.cell_2_divjon {
+  display: flex;
+  gap: 4.9px;
+  padding: 4.9px;
+}
+
+.cell_2_divjon_kichik {
+  background-color: #d7d1c0;
+  width: 30.94px;
+  height: 8.96px;
+  border-radius: 10px;
+}
+
+.cell_2_divjon_middle {
+  width: 59.44px;
+  height: 8.96px;
+  border-radius: 10px;
+  background-color: #d7d1c0;
+}
+
+.cell_2_divjon_big {
+  width: 80.61px;
+  height: 8.96px;
+  border-radius: 10px;
+  background-color: #d7d1c0;
+}
+
+/* YOUTUBE SECTION */
+
+.youtube {
+  margin-top: 300px;
   text-align: center;
+  margin-bottom: 110px;
+}
+
+.youtube_back_image {
+  background-image: url(./images/rasm7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1440px;
+  height: 1094px;
+  margin-top: -1000px;
+}
+
+.youtube h1 {
+  width: 922px;
+  font-family: Roboto;
+  font-size: 59px;
+  font-weight: 400;
+  line-height: 70.85px;
+  text-align: center;
+  color: #221437;
+  margin: 0 auto;
+  margin-bottom: 62px;
+}
+
+.youtube_iframe {
+  display: block; /* Iframe uchun block ko'rinishi */
+  margin: 0 auto; /* O'ng va chap bo'sh joyni avtomatik tarzda taqsimlash */
+  max-width: 100%; /* Responsive qilish */
+}
+
+.youtube h2 {
+  width: 719px;
+  font-family: Roboto;
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 81px;
+  color: #221437;
+  margin: 0 auto;
+  margin-top: 92px;
+  margin-bottom: 89px;
+  span {
+    font-family: Roboto;
+    font-size: 81px;
+    font-weight: 700;
+    line-height: 81px;
+    color: #221437;
+  }
+}
+
+.youtube form {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube form input {
+  padding: 20px 191px 20px 33px;
+  box-shadow: 0px 4px 10.8px 0px #0000000d;
+  border-radius: 36px;
+}
+
+.youtube form input[type="email"]::placeholder {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+}
+
+/* FOOTER SECTION */
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: left;
+  color: #221437;
+  margin-top: 143px;
+}
+
+.footer_tables {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_table {
+  display: flex;
+  gap: 86px;
+  margin-left: 327px;
+}
+
+.footer_navigations {
+  list-style: none;
+}
+
+.footer_nav a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.42px;
+  color: #444444;
+}
+
+.last_style {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18.9px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #221437;
 }
